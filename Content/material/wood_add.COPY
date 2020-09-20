@@ -1,0 +1,64 @@
+Begin Object Class=/Script/Engine.Material Name="wood"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_0"
+      MaterialExpressionEditorX=-800
+      MaterialExpressionEditorY=208
+      MaterialExpressionGuid=54FB49D64EA6B4A7F3203CA4E63F9A80
+      Material=Material'"wood"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Coordinates=(Expression=MaterialExpressionTextureCoordinate'"wood:MaterialExpressionTextureCoordinate_0"')
+      Texture=Texture2D'"/Game/material/teqbcizc_2K_Normal.teqbcizc_2K_Normal"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=CE0A5C07418C0188AC1AA0A778B4E153
+      Material=Material'"wood"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Coordinates=(Expression=MaterialExpressionTextureCoordinate'"wood:MaterialExpressionTextureCoordinate_0"')
+      Texture=Texture2D'"/Game/material/teqbcizc_2K_Roughness.teqbcizc_2K_Roughness"'
+      MaterialExpressionEditorX=-400
+      MaterialExpressionEditorY=464
+      MaterialExpressionGuid=1976D7DD4244542ED24770B9959DF6CD
+      Material=Material'"wood"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Coordinates=(Expression=MaterialExpressionTextureCoordinate'"wood:MaterialExpressionTextureCoordinate_0"')
+      Texture=Texture2D'"/Game/material/teqbcizc_2K_Albedo.teqbcizc_2K_Albedo"'
+      MaterialExpressionEditorX=-352
+      MaterialExpressionEditorY=-48
+      MaterialExpressionGuid=9B7F3EDE4B0ECD62CCD6DA9935A0EFAD
+      Material=Material'"wood"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',OutputIndex=5,Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=5,Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',OutputIndex=5,Mask=1,MaskR=1,MaskG=1,MaskB=1,MaskA=1)
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   Expressions(3)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=461EBC114978291278464299B72D507A
+   CachedExpressionData=(ReferencedTextures=(Texture2D'"/Game/material/teqbcizc_2K_Albedo.teqbcizc_2K_Albedo"',Texture2D'"/Game/material/teqbcizc_2K_Roughness.teqbcizc_2K_Roughness"',Texture2D'"/Game/material/teqbcizc_2K_Normal.teqbcizc_2K_Normal"'),QualityLevelsUsed=(False,True,False))
+   ReferencedTextureGuids(0)=6EDC7FBE438C5105ADD10AB620A11CA3
+   ReferencedTextureGuids(1)=3B1F97F94A22F1FBD9A8EB924887B2D4
+   ReferencedTextureGuids(2)=B569E38C42DCBA829A49DFB9D2649A0D
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="teqbcizc_2K_Albedo",TextureReference=/Game/material/teqbcizc_2K_Albedo.teqbcizc_2K_Albedo)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="teqbcizc_2K_Normal",TextureReference=/Game/material/teqbcizc_2K_Normal.teqbcizc_2K_Normal)
+   TextureStreamingData(2)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="teqbcizc_2K_Roughness",TextureReference=/Game/material/teqbcizc_2K_Roughness.teqbcizc_2K_Roughness)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=8AA5DE6444912B69DC85FCBA3C3B032A
+End Object
